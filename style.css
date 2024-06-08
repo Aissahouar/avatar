@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;700&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: linear-gradient(to right, #01022d,rgb(3, 1, 12));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotainer{
+    background-image: 
+    linear-gradient(to right, #01022de5 30%,#00000088),
+    url(avatar.webp)
+    ;
+    background-size: cover;
+    height: 640px;
+    width: 90%;
+}
+.cotainer:hover{
+    background-image: 
+    linear-gradient(to right, #01022de5 30%,transparent),
+    url(avatar.webp)
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width:60%;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.content{
+    margin-top: 80px;
+    width:25%;
+    padding: 30px;
+    color: white;
+}
+.content h1{
+font-size: 80px;
+text-transform: uppercase;
+}
+.content p{
+    margin-top: 28px;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+    border:2px solid white;
+    cursor: pointer;
+}
